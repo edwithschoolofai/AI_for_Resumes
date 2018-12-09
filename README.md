@@ -1,22 +1,22 @@
-# Midterm Assignment - Due Date, Thursday May 17 2018 
+# 중간 과제 - 마감 기한, 2018년 5월 17일 목요일까지 
 
-Use a Convolutional Neural Network to classify a text dataset, like one of [these](https://github.com/niderhoff/nlp-datasets). The more interesting the use case the better. Good documentation gets bonus points. Submit github links in the comment section. Good luck!
+순환 신경망을 사용하여 [이것](https://github.com/niderhoff/nlp-datasets)과 같이 문장 데이터를 분류하세요. 사용처가 흥미로울수록 더 좋습니다. 훌륭한 문서 처리는 추가 점수를 받습니다. 깃허브 링크를 댓글란에 제출하세요. 행운을 빕니다! 
 
-## Overview
+## 개요
 
-This is the code for [this](https://youtu.be/p3SKx5C04qg) video on Youtube by Siraj Raval on AI for resumes. We can use this CNN to classify resume data found [here](http://barbizonmodeling.com/resumes/). 
+이 코드는 Siraj Raval이 유튜브에 올린 '이력서를 위한 인공지능' [강의 영상](https://youtu.be/p3SKx5C04qg)을 위한 것입니다. 이 CNN을 사용하여 [여기](http://barbizonmodeling.com/resumes/)에 있는 이력서 데이터를 분류할 수 있습니다.
 
-**[This code belongs to the "Implementing a CNN for Text Classification in Tensorflow" blog post.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
+**[이 코드는 "텐서플로를 활용한 문장 분류 CNN 구현" 블로그 글에 귀속됩니다.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
-It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow.
+이는 텐서플로에 있는 Kim의 [문장 분류를 위한 순환 신경망](http://arxiv.org/abs/1408.5882) 연구를 살짝 간단하게 변형한 형태입니다.
 
-## Requirements
+## 필요 조건
 
 - Python 3
 - Tensorflow > 0.12
 - Numpy
 
-## Training
+## 학습
 
 Print parameters:
 
@@ -61,20 +61,20 @@ Train:
 ./train.py
 ```
 
-## Evaluating
+## 평가
 
 ```bash
 ./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
 ```
 
-Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data.
+Checkpoint dir을 학습에서 나온 출력으로 교체해 보세요. 여러분의 데이터를 사용하려면, `eval.py` 스크립트를 변경하여 여러분의 데이터를 불러오세요.
 
 
-## References
+## 참고 문헌
 
 - [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882)
 - [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1510.03820)
 
 ## Credits
 
-Credits for this code go to [dennybritz](https://github.com/dennybritz/cnn-text-classification-tf) i've merely created a wrapper to get people started. 
+이 코드의 저작권은 [dennybritz](https://github.com/dennybritz/cnn-text-classification-tf)에게 있습니다. 저는 사람들이 좀 더 쉽게 시작할 수 있도록 정리했을 뿐입니다.
