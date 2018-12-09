@@ -18,7 +18,7 @@
 
 ## 학습
 
-Print parameters:
+변수 출력:
 
 ```bash
 ./train.py --help
@@ -55,7 +55,7 @@ optional arguments:
 
 ```
 
-Train:
+학습:
 
 ```bash
 ./train.py
