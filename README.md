@@ -8,7 +8,7 @@
 
 **[이 코드는 "텐서플로를 활용한 문장 분류 CNN 구현" 블로그 글에 귀속됩니다.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
-이는 텐서플로에 있는 Kim의 [문장 분류를 위한 순환 신경망](http://arxiv.org/abs/1408.5882) 연구를 살짝 간단하게 변형한 형태입니다.
+이는 텐서플로에 있는 Kim의 [문장 분류를 위한 CNN](http://arxiv.org/abs/1408.5882) 연구를 살짝 간단하게 변형한 형태입니다.
 
 ## 필요 조건
 
