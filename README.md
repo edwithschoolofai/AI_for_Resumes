@@ -1,14 +1,14 @@
 # 중간 과제 - 마감 기한, 2018년 5월 17일 목요일까지 
 
-순환 신경망을 사용하여 [이것](https://github.com/niderhoff/nlp-datasets)과 같이 문장 데이터를 분류하세요. 사용처가 흥미로울수록 더 좋습니다. 훌륭한 문서 처리는 추가 점수를 받습니다. 깃허브 링크를 댓글란에 제출하세요. 행운을 빕니다! 
+순환 신경망을 사용하여 [이것](https://github.com/niderhoff/nlp-datasets)과 같이 문장 데이터를 분류하세요. 실제 사례가 더 재미있을수록 좋습니다. 훌륭한 문서화는 추가 점수를 받습니다. 깃허브 링크를 댓글란에 제출하세요. 행운을 빕니다! 
 
 ## 개요
 
 이 코드는 Siraj Raval이 유튜브에 올린 '이력서를 위한 인공지능' [강의 영상](https://youtu.be/p3SKx5C04qg)을 위한 것입니다. 이 CNN을 사용하여 [여기](http://barbizonmodeling.com/resumes/)에 있는 이력서 데이터를 분류할 수 있습니다.
 
-**[이 코드는 "텐서플로를 활용한 문장 분류 CNN 구현" 블로그 글에 귀속됩니다.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
+**[이 코드는 "텐서플로우를 활용한 문장 분류 CNN 구현" 블로그 글에 귀속됩니다.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
-이는 텐서플로에 있는 Kim의 [문장 분류를 위한 CNN](http://arxiv.org/abs/1408.5882) 연구를 살짝 간단하게 변형한 형태입니다.
+이는 텐서플로우에 있는 Kim의 [문장 분류를 위한 CNN](http://arxiv.org/abs/1408.5882) 연구를 살짝 간단하게 변형한 형태입니다.
 
 ## 필요 조건
 
@@ -67,7 +67,7 @@ optional arguments:
 ./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
 ```
 
-Checkpoint dir을 학습에서 나온 출력으로 교체해 보세요. 여러분의 데이터를 사용하려면, `eval.py` 스크립트를 변경하여 여러분의 데이터를 불러오세요.
+checkpoint_dir은 학습한 결과물로 바꿔주세요. 여러분의 데이터를 사용하려면, `eval.py` 스크립트를 수정하여 데이터를 불러오세요.
 
 
 ## 참고 문헌
